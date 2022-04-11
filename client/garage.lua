@@ -67,7 +67,6 @@ AddEventHandler('qb-burgershot:garage', function(vehicle)
   QBCore.Functions.GetPlayerData(function(PlayerData)
     if PlayerData.job.name == "burgershot" then
       if vehicle == 'stalion2' then
-        print(vehicle)
         QBCore.Functions.SpawnVehicle(vehicle, function(veh)
           local plate = "BURGER"..tostring(math.random(1000, 9999))
           SetVehicleNumberPlateText(veh, plate)
