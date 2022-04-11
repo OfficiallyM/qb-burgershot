@@ -1,4 +1,4 @@
-# A Burgershot for QBCore Framework
+# A Burgershot job for QBCore Framework
 
 ## Dependencies :
 
